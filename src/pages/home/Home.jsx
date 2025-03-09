@@ -127,77 +127,82 @@ const Home = () => {
                 <div className='flex flex-col md:flex-row justify-around items-center md:items-start'>
                     {/* Текстовый блок */}
                     <div className='w-full md:w-1/2 p-5'>
-                        <p className='text-slate-800 font-sans font-medium'>Effortless Validation for</p>
-                        <p className='font-bold text-slate-800 text-3xl mt-3'>Management</p>
+                        <p className='text-slate-800 font-sans font-medium'>Открой новые горизонты с</p>
+                        <p className='font-bold text-slate-800 text-3xl mt-3'>Work and Travel USA</p>
                         <p className='text-slate-800 mt-8'>
-                            The Myspace page defines the individual, his or her characteristics, traits,
-                            personal choices and the overall personality of the person.
+                            Уникальная возможность путешествовать и работать в США! Получите незабываемый опыт,
+                            улучшите свой английский и заведите новых друзей со всего мира.
                         </p>
-                        <p className='text-slate-800 mt-8 font-bold'>Accessory makers</p>
+                        <p className='text-slate-800 mt-8 font-bold'>Почему выбирают нас?</p>
                         <p className='text-slate-800 mt-3'>
-                            While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun
+                            ✔ Официальное агентство с многолетним опытом
+                            ✔ Поддержка на всех этапах: от оформления визы до возвращения
+                            ✔ Работа в лучших компаниях США
                         </p>
-                        <p className='text-slate-800 mt-8 font-bold'>Alterationists</p>
+                        <p className='text-slate-800 mt-8 font-bold'>Твой шанс начать приключение!</p>
                         <p className='mt-3 text-slate-800'>
-                            If you are looking for a new way to promote your business that won’t cost you more money,
+                            Запишись на программу уже сегодня и сделай первый шаг к путешествию мечты!
                         </p>
                     </div>
 
                     {/* Изображение */}
                     <img
-                        className='w-full md:w-1/3 h-auto mt-5 md:mt-0'
+                        className='w-full md:w-1/3 h-auto mt-5 md:mt-0 rounded-lg shadow-lg'
                         src="https://media.istockphoto.com/id/452361493/photo/young-lady-visiting-statue-of-liberty-in-new-york.jpg?s=612x612&w=0&k=20&c=RW43Atj4Edi1AkIXtIxg8jzT-zNJTzySPChGsJvEZLo="
-                        alt="Statue of Liberty"
+                        alt="Work and Travel USA"
                     />
                 </div>
             </div>
 
 
+
             <div className='mt-15'>
                 <div className='flex justify-center sm:justify-around flex-col sm:flex-row'>
-                    <img className='w-full sm:w-120 sm:h-110 h-auto mb-5 sm:mb-0' src="https://static.tildacdn.com/tild3362-6638-4338-a330-613463393436/01Frommers-New-York-.jpg" alt=""/>
+                    <img className='w-full sm:w-120 sm:h-110 h-auto mb-5 sm:mb-0' src="https://static.tildacdn.com/tild3362-6638-4338-a330-613463393436/01Frommers-New-York-.jpg" alt="Work and Travel USA"/>
                     <div className='w-full sm:w-156 p-5'>
                         <p className='text-slate-800 font-sans font-medium text-center sm:text-left'>
-                            Effortless Validation for
+                            Открой Америку с нами!
                         </p>
                         <p className='font-bold text-slate-800 text-3xl mt-3 text-center sm:text-left'>
-                            Management
+                            Work and Travel USA
                         </p>
                         <p className='text-slate-800 mt-8'>
-                            The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person.
+                            Уникальная возможность поработать и путешествовать в США! Мы поможем вам оформить документы, найти работу и подготовиться к незабываемому лету.
                         </p>
-                        <p className='text-slate-800 mt-8 font-bold'>Accessory makers</p>
+                        <p className='text-slate-800 mt-8 font-bold'>Почему выбирают нас?</p>
                         <div className='flex items-center'>
                             <span className='text-white text-xl mr-2 rounded-lg p-1 pr-2 bg-yellow-500'>✔</span>
-                            <p className='text-slate-800 mt-3'>While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun</p>
+                            <p className='text-slate-800 mt-3'>Официальное агентство с многолетним опытом</p>
                         </div>
                         <div className='flex items-center mt-8'>
                             <span className='text-white text-xl rounded-lg p-1 mr-2 pr-2 bg-red-500'>✔</span>
-                            <p className='text-slate-800 font-bold'>Alterationists</p>
+                            <p className='text-slate-800 font-bold'>Работа в лучших местах</p>
                         </div>
                         <div className='flex items-center mt-3'>
                             <span className='text-white rounded-lg mr-2 text-xl pr-2 p-1 bg-blue-500'>✔</span>
-                            <p className='text-slate-800'>If you are looking for a new way to promote your business that won’t cost you more money, </p>
+                            <p className='text-slate-800'>Полное сопровождение от подачи заявки до возвращения домой</p>
                         </div>
                     </div>
                 </div>
             </div>
+
 
 
             <div className='mt-15'>
                 <div className='flex justify-center sm:justify-around flex-col sm:flex-row'>
                     <div className='w-full sm:w-106 p-5'>
-                        <p className='text-slate-800 font-sans font-medium'>Effortless Validation for</p>
-                        <p className='font-bold text-slate-800 text-3xl mt-3'>Management</p>
-                        <p className='text-slate-800 mt-8'>The Myspace page defines the individual, his or her characteristics, traits, personal choices, and the overall personality of the person.</p>
-                        <p className='text-slate-800 mt-8 font-bold'>Accessory makers</p>
-                        <p className='text-slate-800 mt-3'>While most people enjoy casino gambling, sports betting, lottery, and bingo playing for fun.</p>
-                        <p className='text-slate-800 mt-8 font-bold'>Alterationists</p>
-                        <p className='mt-3 text-slate-800'>If you are looking for a new way to promote your business that won’t cost you more money,</p>
+                        <p className='text-slate-800 font-sans font-medium'>Начни свое путешествие</p>
+                        <p className='font-bold text-slate-800 text-3xl mt-3'>Work and Travel USA</p>
+                        <p className='text-slate-800 mt-8'>Работай, путешествуй и открой Америку этим летом! Мы поможем с оформлением документов, поиском работы и подготовкой к поездке.</p>
+                        <p className='text-slate-800 mt-8 font-bold'>Почему стоит поехать?</p>
+                        <p className='text-slate-800 mt-3'>✔ Легальное трудоустройство в США</p>
+                        <p className='text-slate-800 mt-3'>✔ Возможность путешествовать и изучать язык</p>
+                        <p className='text-slate-800 mt-3'>✔ Незабываемый опыт и новые друзья</p>
                     </div>
-                    <img className='w-full sm:w-150 sm:mr-5 mb-5 sm:mb-0' src="https://bcls.ru/resources/images/school/b/f/7/f713e145ec3d598829c4d9fc4ea4d333.jpeg" alt=""/>
+                    <img className='w-full sm:w-150 sm:mr-5 mb-5 sm:mb-0' src="https://bcls.ru/resources/images/school/b/f/7/f713e145ec3d598829c4d9fc4ea4d333.jpeg" alt="Work and Travel USA"/>
                 </div>
             </div>
+
 
 
             <div
