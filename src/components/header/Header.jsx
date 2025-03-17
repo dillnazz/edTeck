@@ -18,8 +18,8 @@ const Header = () => {
                 <nav className='hidden md:flex space-x-6 text-gray-700 font-medium'>
                     <Link to="/" className='hover:text-blue-500 transition'>Главная</Link>
                     <Link to="/about" className='hover:text-blue-500 transition'>О нас</Link>
-                    <Link to="/contact" className='hover:text-blue-500 transition'>Контакты</Link>
                     <Link to="/faq" className='hover:text-blue-500 transition'>FAQ</Link>
+                    <Link to="/contact" className='hover:text-blue-500 transition'>Контакты</Link>
                     <Link to="/why" className='hover:text-blue-500 transition'>Почему мы?</Link>
                 </nav>
 
